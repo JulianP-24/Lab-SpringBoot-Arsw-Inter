@@ -1,1 +1,1 @@
-web: java -jar target/TallerSpring-1.0-SNAPSHOT.jar
+web: java -cp target/classes edu.escuelaing.arsw.app.WebSiteController
