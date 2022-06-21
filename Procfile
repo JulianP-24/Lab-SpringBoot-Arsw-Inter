@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* edu.escuelaing.arsw.app.WebSiteController
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/TallerSpring-1.0-SNAPSHOT.jar
