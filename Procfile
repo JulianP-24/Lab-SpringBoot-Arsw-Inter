@@ -1,1 +1,1 @@
-web: java -cp target/classes edu.escuelaing.arsw.app.WebSiteController
+web: java -cp target/classes:target/dependency/* edu.escuelaing.arsw.app.WebSiteController
